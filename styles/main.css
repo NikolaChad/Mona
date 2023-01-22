@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav, .logo, .pages, .pages li, .login, .login button {
+    color: antiquewhite;
+    display: inline-block;
+    font-size: 32px;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(47, 48, 47);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 15px 30px;
+}
+
+.pages li {
+    margin: 25px 30px;
+    position: relative;
+}
+
+.pages ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    color: antiquewhite;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    transition: 0.25s;
+    background-color: antiquewhite;
+}
+
+.pages ul li:hover::after{
+    width:100%;
+}
+
+.login {
+    margin: 15px 30px;
+}
+
+.login button { 
+    color: antiquewhite;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid  antiquewhite;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.banner {
+    background-image: url("https://imgur.com/GQ5F8zP.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-txt {
+    text-align: center;
+}
+
+.slogan {
+    color: antiquewhite;
+    font-size: 55px;
+}
+
+.start-btn {
+    margin-top: 50px;
+    font-size: 35px;
+    padding: 20px 35px; 
+    border-color: transparent; 
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: antiquewhite;
+    background-color:  rgb(193, 48, 48);
+}
