@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav, .logo, .pages, .pages li, .login, .login button {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 32px;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(47, 48, 47);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 15px 30px;
+}
+
+.pages li {
+    margin: 25px 30px;
+    position: relative;
+}
+
+.pages ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    transition: 0.25s;
+    background-color: rgb(255, 255, 255);
+}
+
+.pages ul li:hover::after{
+    width:100%;
+}
+
+.login {
+    margin: 18px 30px;
+}
+
+.login button { 
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid  rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.choose-color {
+    width: 200px;
+    background-color: rgb(47, 48, 47);
+    padding: 25px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.choose-color p {
+    color: rgb(255, 255, 255);
+    margin-bottom : 15px;
+    font-size: 17px;
+}
+
+.choose-color select .black {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.choose-color select .white {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.choose-color select .pink {
+    background-color: pink;
+   
+}
+
+.choose-color select .light-blue {
+    background-color: lightblue;
+}
+
+.input-age {
+    width: 200px ;
+    background-color: rgb(47, 48, 47);
+    padding: 25px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-age p {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-bottom : 15px;
+    font-size: 17px;
+}
+
+.age-box {
+    display: flex;
+    justify-content: center;
+}
+
+.select-nationality {
+    width: 200px ;
+    background-color: rgb(47, 48, 47);
+    padding: 25px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.select-nationality p {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-bottom : 15px;
+    font-size: 17px;
+}
+
+.price {
+    width: 200px ;
+    background-color: rgb(47, 48, 47);
+    padding: 25px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price p {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-bottom : 15px;
+    font-size: 17px;
+}
+
+.price-box {
+    display: flex;
+    justify-content: center;
+}
