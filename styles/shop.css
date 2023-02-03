@@ -6,6 +6,10 @@
     color: inherit;
 }
 
+body {
+    background-color: rgb(85, 91, 91);
+}
+
 nav, .logo, .pages, .pages li, .login, .login button {
     color: rgb(255, 255, 255);
     display: inline-block;
@@ -161,4 +165,50 @@ nav {
 .price-box {
     display: flex;
     justify-content: center;
+}
+
+.sale {
+    position: absolute;
+    display: inline-block;
+    border: 2px solid  white;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-top: 50px;
+    background-color: rgb(193, 48, 48);
+    padding: 93px 60px;
+    width: 300px;
+}
+
+.sale p {
+    color: white;
+    font-size: 30px;
+}
+
+.monebi {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.monebi .rusia-image{
+    margin-right: 30px;
+    border-radius: 40px;
+    width: 250px;
+}
+
+.monebi .tamaza-image {
+    width: 236px;
+    border-radius: 37px;
+}
+
+.rusia-text {
+    color: white;
+    margin-top: 40px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.rusia-text span{
+    font-size: 27px;
 }

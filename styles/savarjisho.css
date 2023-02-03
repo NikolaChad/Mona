@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(40, 39, 39);
+}
+
+.grid-container {
+     color: aqua;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px;
+}
